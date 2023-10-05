@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - A program that prints the size of various types
- * Return 0 (Success)
+ * Returns 0 (Success)
  */
 int main(void)
 {
@@ -18,4 +18,4 @@ printf("Size of char: %zu byte(s)\n", sizeof(char));
     printf("Size of double: %zu byte(s)\n", sizeof(double));
     printf("Size of long double: %zu byte(s)\n", sizeof(long double));
     
-    return 0;
+    return (0);
